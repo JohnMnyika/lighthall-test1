@@ -16,10 +16,10 @@ function ClickCounter() {
     };
 
     return (
-        <div>
+        <div className="text-center">
             <h1>Light-hall Counter App</h1>
             <p>Clicks: {count}</p>
-            <button onClick={handleClick}>Click here</button>
+            <button className="btn btn-primary" onClick={handleClick}>Click here</button>
         </div>
     );
 }
